@@ -1,0 +1,15 @@
+This is ready-to-use Cotonti port of SyntaxHighligher by Alex Gorbatchev.
+http://alexgorbatchev.com/SyntaxHighlighter/
+
+Installation:
+1. Install the plugin.
+2. Make sure {FOOTER_RC} tag is present in your theme's footer.tpl.
+
+Usage with HTML parsing:
+To highlight source code with some specific language, use HTML tags like this:
+<pre class="brush:language;">
+Your code here
+</pre>
+The list of available brushes: http://alexgorbatchev.com/SyntaxHighlighter/manual/brushes/
+
+Plugin for CKEditor: http://code.google.com/p/ckeditor-syntaxhighlight/
