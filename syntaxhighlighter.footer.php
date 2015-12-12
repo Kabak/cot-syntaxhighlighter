@@ -33,7 +33,8 @@ function shl_cssname($chTheme = 'Default')
 	$cssfile = $cfg['themes_dir'] . '/' . $theme . '/styles/shCore' . $chTheme . '.css';
 	if (is_file($cssfile)) return $cssfile;
 	$cssfile = $cfg['plugins_dir'] . '/syntaxhighlighter/lib/styles/shCore' . $chTheme . '.css';
-	return $cssfile;
+	if (is_file($cssfile)) return $cssfile;
+	return $cfg['plugins_dir'] . '/syntaxhighlighter/lib/styles/shCoreDefault.css';;
 }
 
 $sh_core_css = cot_rc('code_rc_css_file', array(

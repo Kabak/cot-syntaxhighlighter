@@ -4,8 +4,8 @@
 Code=syntaxhighlighter
 Name=SyntaxHighlighter
 Description=Code highlighter written in JavaScript
-Version=1.2-3.0.83
-Date=2015-07-08
+Version=1.2.1-3.0.83
+Date=2015-12-13
 Author=Alex Gorbatchev
 Copyright=
 Notes=
