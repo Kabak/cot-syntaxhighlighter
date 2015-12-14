@@ -4,8 +4,8 @@
 Code=syntaxhighlighter
 Name=SyntaxHighlighter
 Description=Code highlighter written in JavaScript
-Version=1.1-3.0.83
-Date=2011-07-08
+Version=1.2.1-3.0.83
+Date=2015-12-13
 Author=Alex Gorbatchev
 Copyright=
 Notes=
@@ -15,8 +15,12 @@ Lock_guests=W12345A
 Auth_members=RW
 Lock_members=12345A
 [END_COT_EXT]
+
+[BEGIN_COT_EXT_CONFIG]
+theme=01:callback:shl_get_themes():Default:Highlight color theme
+[END_COT_EXT_CONFIG]
+
 ==================== */
 
 defined('COT_CODE') or die('Wrong URL');
 
-?>
