@@ -3,6 +3,13 @@ Syntaxhighlighter
 This is ready-to-use Cotonti port of SyntaxHighligher by Alex Gorbatchev.
 http://alexgorbatchev.com/SyntaxHighlighter/
 
+## Whats new 1.06.2023
+
+1. Additional reserved words for C++ added
+2. New themes
+
+-------------------------------------------
+
 ## Installation
 
 1. Install the plugin.
@@ -30,4 +37,3 @@ But you can adjust some of it to suit you needs with Cotonti theme colors. To do
 `syntaxhighlighter/lib/styles` folder to your theme sub folder named `styles` — `themes/themename/styles`.
 Now you can change it for your needs or create your own. All CSS files located in `themes/themename/styles` folder
 override default ones with same names.
-
