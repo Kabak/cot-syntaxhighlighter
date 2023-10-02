@@ -10,9 +10,24 @@
  /* String numbers*/
  .syntaxhighlighter .gutter { color: #afafaf !important; }
  /* line */
- .syntaxhighlighter .gutter .line { border-right: 3px solid #85955F !important; }
+ .syntaxhighlighter .gutter .line { border-right: 1px solid #85955F !important; }
  .syntaxhighlighter table { width: 100% !important; background: #0F2404 !important; border-radius: 10px; box-sizing: border-box !important; }
- div.syntaxhighlighter { width: 100% !important; margin: 1em 0 1em 0 !important; position: relative !important; overflow: auto !important; font-size: 0.9em !important; }
+ div.syntaxhighlighter { 
+  width: 100% !important; 
+  margin: 1em 0 1em 0 !important; 
+  position: relative !important; 
+  overflow: auto !important; 
+  font-size: 0.9em !important;
+  /* border around code source */ 
+  color: #898989 !important; 
+  border-left: 8px solid #404C5D !important; 
+  border-right: 1px solid #404C5D !important; 
+  border-bottom: 1px solid #404C5D !important; 
+  border-top: 1px solid #404C5D !important; 
+  background-color: #0F2404 !important; 
+  border-radius: 10px !important;
+  box-shadow: 3px 3px 10px #00000080 !important;
+}
 
 
  .syntaxhighlighter { background-color: #0F2404 !important; margin: 5px; }
