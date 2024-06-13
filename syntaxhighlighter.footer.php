@@ -17,8 +17,34 @@ Hooks=footer.first
 
 defined('COT_CODE') or die('Wrong URL');
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Это только для отладки тем 
+// Чтобы выделение кода syntexhighlighter переключалось автоматически 
+// при смене темы сайта пользователем 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+if ( $usr['theme'] == 'Day_Light' )
+{
+    $cfg['plugin']['syntaxhighlighter']['theme'] = 'Day_Light';    
+}
+else if ( $usr['theme'] == 'Dark_Blog' )
+{
+    $cfg['plugin']['syntaxhighlighter']['theme'] = 'Dark_Blog'; 
+}
+else if ( $usr['theme'] == 'Night_Lightning' )
+{
+    $cfg['plugin']['syntaxhighlighter']['theme'] = 'Dark_Clouds';  
+}
+else if ( $usr['theme'] == 'Forest' )
+{
+    $cfg['plugin']['syntaxhighlighter']['theme'] = 'Forest';  
+}
+// --------------------------------------------------------------------
+// --------------------------------------------------------------------
+// --------------------------------------------------------------------
+
 $shTheme = $cfg['plugin']['syntaxhighlighter']['theme'];
 $shTheme = $shTheme ? $shTheme : 'Default';
+
 
 /**
  * Returns full path to theme css file

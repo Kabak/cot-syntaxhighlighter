@@ -7,6 +7,7 @@ http://alexgorbatchev.com/SyntaxHighlighter/
 
 1. Additional reserved words for C++ added
 2. New themes
+3. Microchip ASM supported now
 
 -------------------------------------------
 

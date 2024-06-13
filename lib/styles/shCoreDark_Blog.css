@@ -45,17 +45,16 @@
 
 .syntaxhighlighter .script { color: #006699 !important;
   font-weight: bold !important; background-color: none !important; }
-
-.syntaxhighlighter .color1, 
+ 
 .syntaxhighlighter .color1 a { color: gray !important; }
-
-.syntaxhighlighter .color2, 
 .syntaxhighlighter .color2 a { color: #ff1493 !important; }
-
-.syntaxhighlighter .color3, 
 .syntaxhighlighter .color3 a { color: #fdb1b1 !important; }
-
 .syntaxhighlighter .color4 { color: #dd06fa !important; }
+.syntaxhighlighter .masm_instr { color: #5ca5ff !important; }
+.syntaxhighlighter .masm_dest { color: #5ca5ff !important; font-style:italic !important; }
+.syntaxhighlighter .masm_reg { color: #fdc45c !important; }
+.syntaxhighlighter .masm_prep { color: #B5CEA8 !important; font-style:italic !important; }
+.syntaxhighlighter .masm_dir { color: #9CDCFE !important; font-style:italic !important; }
 
 .syntaxhighlighter .keyword {
   font-weight: bold !important;
@@ -181,7 +180,7 @@
  
  .syntaxhighlighter table td.gutter .line {
    text-align: right !important;
-   padding: 0 0.5em 0 1em !important;
+   padding: 0 5px 0 5px !important;
  }
  
  .syntaxhighlighter table td.code .line {
